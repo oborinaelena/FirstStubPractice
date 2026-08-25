@@ -1,0 +1,201 @@
+2026-08-25T11:15:56.476+03:00  INFO 8316 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Starting FirstStubApplication using Java 23.0.1 with PID 8316 (C:\Users\User\IdeaProjects\FirstStubPractice\target\classes started by User in C:\Users\User\IdeaProjects\FirstStubPractice)
+2026-08-25T11:15:56.481+03:00 DEBUG 8316 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-08-25T11:15:56.483+03:00  INFO 8316 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : The following 1 profile is active: "prod"
+2026-08-25T11:15:58.836+03:00  INFO 8316 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-25T11:15:58.866+03:00  INFO 8316 --- [first-stub] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T11:15:58.866+03:00  INFO 8316 --- [first-stub] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-08-25T11:15:58.960+03:00  INFO 8316 --- [first-stub] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2367 ms
+2026-08-25T11:16:00.746+03:00  INFO 8316 --- [first-stub] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-25T11:16:00.856+03:00  INFO 8316 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-25T11:16:00.868+03:00  INFO 8316 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Started FirstStubApplication in 5.351 seconds (process running for 6.205)
+2026-08-25T11:16:01.019+03:00  WARN 8316 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-25T11:16:01.019+03:00  WARN 8316 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-25T11:16:25.467+03:00  INFO 8316 --- [first-stub] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-25T11:16:25.473+03:00  INFO 8316 --- [first-stub] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-25T11:16:25.481+03:00  INFO 8316 --- [first-stub] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2026-08-25T11:16:25.775+03:00  INFO 8316 --- [first-stub] [http-nio-8080-exec-1] c.e.F.controller.ProcessingController    : GET /v2/checkAccount acc=1234567890, days=2
+2026-08-25T11:17:04.061+03:00  INFO 8316 --- [first-stub] [http-nio-8080-exec-3] c.e.F.controller.ProcessingController    : GET /v2/checkAccount acc=1234567891, days=3
+2026-08-25T11:17:45.550+03:00  INFO 8316 --- [first-stub] [http-nio-8080-exec-5] c.e.F.controller.ProcessingController    : GET /v2/checkAccount acc=1234567890, days=2
+2026-08-25T11:19:19.936+03:00  INFO 8316 --- [first-stub] [http-nio-8080-exec-10] c.e.F.controller.ProcessingController    : POST /v2/payment/ transactionId=T-342-67777, BankCode=22
+2026-08-25T11:20:22.895+03:00  INFO 8316 --- [first-stub] [http-nio-8080-exec-2] c.e.F.controller.ProcessingController    : DELETE /v1/transactions/cleare/12345
+2026-08-25T11:22:45.290+03:00  INFO 8316 --- [first-stub] [http-nio-8080-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 502 ms
+2026-08-25T11:27:28.811+03:00  INFO 8316 --- [first-stub] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T11:27:28.823+03:00  INFO 8316 --- [first-stub] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-25T11:27:37.560+03:00  INFO 2700 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Starting FirstStubApplication using Java 23.0.1 with PID 2700 (C:\Users\User\IdeaProjects\FirstStubPractice\target\classes started by User in C:\Users\User\IdeaProjects\FirstStubPractice)
+2026-08-25T11:27:37.567+03:00 DEBUG 2700 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-08-25T11:27:37.570+03:00  INFO 2700 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : The following 1 profile is active: "prod"
+2026-08-25T11:27:41.061+03:00  INFO 2700 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-25T11:27:41.100+03:00  INFO 2700 --- [first-stub] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T11:27:41.101+03:00  INFO 2700 --- [first-stub] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-08-25T11:27:41.218+03:00  INFO 2700 --- [first-stub] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3406 ms
+2026-08-25T11:27:42.580+03:00  INFO 2700 --- [first-stub] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-25T11:27:42.699+03:00  INFO 2700 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-25T11:27:42.711+03:00  INFO 2700 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Started FirstStubApplication in 6.398 seconds (process running for 7.363)
+2026-08-25T11:27:42.841+03:00  WARN 2700 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-25T11:27:42.841+03:00  WARN 2700 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-25T11:32:40.016+03:00  INFO 2700 --- [first-stub] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T11:32:40.032+03:00  INFO 2700 --- [first-stub] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-25T11:32:42.961+03:00  INFO 6972 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Starting FirstStubApplication using Java 23.0.1 with PID 6972 (C:\Users\User\IdeaProjects\FirstStubPractice\target\classes started by User in C:\Users\User\IdeaProjects\FirstStubPractice)
+2026-08-25T11:32:42.967+03:00 DEBUG 6972 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-08-25T11:32:42.968+03:00  INFO 6972 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : The following 1 profile is active: "prod"
+2026-08-25T11:32:45.069+03:00  INFO 6972 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-25T11:32:45.086+03:00  INFO 6972 --- [first-stub] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T11:32:45.086+03:00  INFO 6972 --- [first-stub] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-08-25T11:32:45.214+03:00  INFO 6972 --- [first-stub] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2156 ms
+2026-08-25T11:32:46.514+03:00  INFO 6972 --- [first-stub] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-25T11:32:46.615+03:00  INFO 6972 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-25T11:32:46.629+03:00  INFO 6972 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Started FirstStubApplication in 4.505 seconds (process running for 5.199)
+2026-08-25T11:32:46.758+03:00  WARN 6972 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-25T11:32:46.759+03:00  WARN 6972 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-25T11:35:45.213+03:00  INFO 6972 --- [first-stub] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T11:35:45.227+03:00  INFO 6972 --- [first-stub] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-25T11:35:48.385+03:00  INFO 16652 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Starting FirstStubApplication using Java 23.0.1 with PID 16652 (C:\Users\User\IdeaProjects\FirstStubPractice\target\classes started by User in C:\Users\User\IdeaProjects\FirstStubPractice)
+2026-08-25T11:35:48.391+03:00 DEBUG 16652 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-08-25T11:35:48.393+03:00  INFO 16652 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : The following 1 profile is active: "prod"
+2026-08-25T11:35:51.204+03:00  INFO 16652 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-25T11:35:51.232+03:00  INFO 16652 --- [first-stub] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T11:35:51.232+03:00  INFO 16652 --- [first-stub] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-08-25T11:35:51.326+03:00  INFO 16652 --- [first-stub] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2737 ms
+2026-08-25T11:35:52.882+03:00  INFO 16652 --- [first-stub] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-25T11:35:52.996+03:00  INFO 16652 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-25T11:35:53.011+03:00  INFO 16652 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Started FirstStubApplication in 5.73 seconds (process running for 6.522)
+2026-08-25T11:35:53.162+03:00  WARN 16652 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-25T11:35:53.162+03:00  WARN 16652 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-25T11:36:19.416+03:00  INFO 16652 --- [first-stub] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-25T11:36:19.418+03:00  INFO 16652 --- [first-stub] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-25T11:36:19.422+03:00  INFO 16652 --- [first-stub] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-08-25T11:42:37.619+03:00  INFO 16652 --- [first-stub] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T11:42:37.629+03:00  INFO 16652 --- [first-stub] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-25T11:42:40.717+03:00  INFO 9384 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Starting FirstStubApplication using Java 23.0.1 with PID 9384 (C:\Users\User\IdeaProjects\FirstStubPractice\target\classes started by User in C:\Users\User\IdeaProjects\FirstStubPractice)
+2026-08-25T11:42:40.721+03:00 DEBUG 9384 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-08-25T11:42:40.723+03:00  INFO 9384 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : The following 1 profile is active: "prod"
+2026-08-25T11:42:43.096+03:00  INFO 9384 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-25T11:42:43.111+03:00  INFO 9384 --- [first-stub] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T11:42:43.112+03:00  INFO 9384 --- [first-stub] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-08-25T11:42:43.197+03:00  INFO 9384 --- [first-stub] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2373 ms
+2026-08-25T11:42:44.552+03:00  INFO 9384 --- [first-stub] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-25T11:42:44.655+03:00  INFO 9384 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-25T11:42:44.667+03:00  INFO 9384 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Started FirstStubApplication in 4.77 seconds (process running for 5.686)
+2026-08-25T11:42:44.791+03:00  WARN 9384 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-25T11:42:44.792+03:00  WARN 9384 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-25T11:42:59.573+03:00  INFO 9384 --- [first-stub] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-25T11:42:59.574+03:00  INFO 9384 --- [first-stub] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-25T11:42:59.577+03:00  INFO 9384 --- [first-stub] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-08-25T11:43:00.618+03:00  INFO 9384 --- [first-stub] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 502 ms
+2026-08-25T11:45:24.625+03:00  INFO 9384 --- [first-stub] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T11:45:24.633+03:00  INFO 9384 --- [first-stub] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-25T11:45:45.441+03:00  INFO 9832 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Starting FirstStubApplication using Java 23.0.1 with PID 9832 (C:\Users\User\IdeaProjects\FirstStubPractice\target\classes started by User in C:\Users\User\IdeaProjects\FirstStubPractice)
+2026-08-25T11:45:45.448+03:00 DEBUG 9832 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-08-25T11:45:45.450+03:00  INFO 9832 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : The following 1 profile is active: "prod"
+2026-08-25T11:45:47.471+03:00  INFO 9832 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-25T11:45:47.488+03:00  INFO 9832 --- [first-stub] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T11:45:47.488+03:00  INFO 9832 --- [first-stub] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-08-25T11:45:47.576+03:00  INFO 9832 --- [first-stub] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1998 ms
+2026-08-25T11:45:48.854+03:00  INFO 9832 --- [first-stub] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-25T11:45:48.963+03:00  INFO 9832 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-25T11:45:48.979+03:00  INFO 9832 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Started FirstStubApplication in 4.362 seconds (process running for 4.995)
+2026-08-25T11:45:49.142+03:00  WARN 9832 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-25T11:45:49.143+03:00  WARN 9832 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-25T11:48:24.198+03:00  INFO 9832 --- [first-stub] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T11:48:24.207+03:00  INFO 9832 --- [first-stub] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-25T11:50:31.866+03:00  INFO 16616 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Starting FirstStubApplication using Java 23.0.1 with PID 16616 (C:\Users\User\IdeaProjects\FirstStubPractice\target\classes started by User in C:\Users\User\IdeaProjects\FirstStubPractice)
+2026-08-25T11:50:31.872+03:00 DEBUG 16616 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-08-25T11:50:31.874+03:00  INFO 16616 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-08-25T11:50:34.164+03:00  INFO 16616 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-25T11:50:34.186+03:00  INFO 16616 --- [first-stub] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T11:50:34.186+03:00  INFO 16616 --- [first-stub] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-08-25T11:50:34.280+03:00  INFO 16616 --- [first-stub] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2242 ms
+2026-08-25T11:50:35.711+03:00  INFO 16616 --- [first-stub] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-25T11:50:35.820+03:00  INFO 16616 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-25T11:50:35.842+03:00  INFO 16616 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Started FirstStubApplication in 4.824 seconds (process running for 5.553)
+2026-08-25T11:50:35.996+03:00  WARN 16616 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-25T11:50:35.997+03:00  WARN 16616 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-25T11:53:14.273+03:00  INFO 16616 --- [first-stub] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T11:53:14.282+03:00  INFO 16616 --- [first-stub] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-25T11:53:51.962+03:00  INFO 14340 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Starting FirstStubApplication using Java 23.0.1 with PID 14340 (C:\Users\User\IdeaProjects\FirstStubPractice\target\classes started by User in C:\Users\User\IdeaProjects\FirstStubPractice)
+2026-08-25T11:53:51.968+03:00 DEBUG 14340 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-08-25T11:53:51.970+03:00  INFO 14340 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-08-25T11:53:54.041+03:00  INFO 14340 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-25T11:53:54.059+03:00  INFO 14340 --- [first-stub] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T11:53:54.059+03:00  INFO 14340 --- [first-stub] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-08-25T11:53:54.147+03:00  INFO 14340 --- [first-stub] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2038 ms
+2026-08-25T11:53:55.397+03:00  INFO 14340 --- [first-stub] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-25T11:53:55.481+03:00  INFO 14340 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-25T11:53:55.493+03:00  INFO 14340 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Started FirstStubApplication in 4.416 seconds (process running for 5.096)
+2026-08-25T11:53:55.603+03:00  WARN 14340 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-25T11:53:55.604+03:00  WARN 14340 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-25T11:56:44.189+03:00  INFO 14340 --- [first-stub] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T11:56:44.198+03:00  INFO 14340 --- [first-stub] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-25T11:57:02.035+03:00  INFO 16232 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Starting FirstStubApplication using Java 23.0.1 with PID 16232 (C:\Users\User\IdeaProjects\FirstStubPractice\target\classes started by User in C:\Users\User\IdeaProjects\FirstStubPractice)
+2026-08-25T11:57:02.039+03:00 DEBUG 16232 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-08-25T11:57:02.040+03:00  INFO 16232 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-08-25T11:57:04.406+03:00  INFO 16232 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-25T11:57:04.426+03:00  INFO 16232 --- [first-stub] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T11:57:04.427+03:00  INFO 16232 --- [first-stub] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-08-25T11:57:04.518+03:00  INFO 16232 --- [first-stub] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2362 ms
+2026-08-25T11:57:05.814+03:00  INFO 16232 --- [first-stub] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-25T11:57:06.179+03:00  INFO 16232 --- [first-stub] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/stubdb user=SA
+2026-08-25T11:57:06.183+03:00  INFO 16232 --- [first-stub] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-25T11:57:06.201+03:00  INFO 16232 --- [first-stub] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/stubdb'
+2026-08-25T11:57:06.334+03:00  INFO 16232 --- [first-stub] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-25T11:57:06.509+03:00  INFO 16232 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-25T11:57:06.531+03:00  INFO 16232 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Started FirstStubApplication in 5.284 seconds (process running for 5.957)
+2026-08-25T11:57:06.697+03:00  WARN 16232 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-25T11:57:06.698+03:00  WARN 16232 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-25T12:04:00.520+03:00  INFO 16232 --- [first-stub] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T12:04:00.529+03:00  INFO 16232 --- [first-stub] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-25T12:04:00.533+03:00  INFO 16232 --- [first-stub] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-25T12:04:00.536+03:00  INFO 16232 --- [first-stub] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-25T12:04:05.322+03:00  INFO 8532 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Starting FirstStubApplication using Java 23.0.1 with PID 8532 (C:\Users\User\IdeaProjects\FirstStubPractice\target\classes started by User in C:\Users\User\IdeaProjects\FirstStubPractice)
+2026-08-25T12:04:05.328+03:00 DEBUG 8532 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-08-25T12:04:05.329+03:00  INFO 8532 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-08-25T12:04:07.945+03:00  INFO 8532 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 7770 (http)
+2026-08-25T12:04:07.968+03:00  INFO 8532 --- [first-stub] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T12:04:07.969+03:00  INFO 8532 --- [first-stub] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-08-25T12:04:08.063+03:00  INFO 8532 --- [first-stub] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2603 ms
+2026-08-25T12:04:09.345+03:00  INFO 8532 --- [first-stub] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-25T12:04:09.664+03:00  INFO 8532 --- [first-stub] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/stubdb user=SA
+2026-08-25T12:04:09.666+03:00  INFO 8532 --- [first-stub] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-25T12:04:09.684+03:00  INFO 8532 --- [first-stub] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/stubdb'
+2026-08-25T12:04:09.823+03:00  INFO 8532 --- [first-stub] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-25T12:04:09.971+03:00  INFO 8532 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 7770 (http) with context path '/'
+2026-08-25T12:04:09.985+03:00  INFO 8532 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Started FirstStubApplication in 5.53 seconds (process running for 6.215)
+2026-08-25T12:04:10.087+03:00  WARN 8532 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-25T12:04:10.088+03:00  WARN 8532 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-25T12:04:13.600+03:00  INFO 8532 --- [first-stub] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T12:04:13.610+03:00  INFO 8532 --- [first-stub] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-25T12:04:13.614+03:00  INFO 8532 --- [first-stub] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-25T12:04:13.618+03:00  INFO 8532 --- [first-stub] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-25T12:04:42.361+03:00  INFO 17380 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Starting FirstStubApplication using Java 23.0.1 with PID 17380 (C:\Users\User\IdeaProjects\FirstStubPractice\target\classes started by User in C:\Users\User\IdeaProjects\FirstStubPractice)
+2026-08-25T12:04:42.366+03:00 DEBUG 17380 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-08-25T12:04:42.367+03:00  INFO 17380 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-08-25T12:04:44.639+03:00  INFO 17380 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 7775 (http)
+2026-08-25T12:04:44.657+03:00  INFO 17380 --- [first-stub] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T12:04:44.657+03:00  INFO 17380 --- [first-stub] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-08-25T12:04:44.747+03:00  INFO 17380 --- [first-stub] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2276 ms
+2026-08-25T12:04:46.051+03:00  INFO 17380 --- [first-stub] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-25T12:04:46.327+03:00  INFO 17380 --- [first-stub] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/stubdb user=SA
+2026-08-25T12:04:46.330+03:00  INFO 17380 --- [first-stub] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-25T12:04:46.346+03:00  INFO 17380 --- [first-stub] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/stubdb'
+2026-08-25T12:04:46.468+03:00  INFO 17380 --- [first-stub] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-25T12:04:46.626+03:00  INFO 17380 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 7775 (http) with context path '/'
+2026-08-25T12:04:46.643+03:00  INFO 17380 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Started FirstStubApplication in 5.075 seconds (process running for 5.731)
+2026-08-25T12:04:46.745+03:00  WARN 17380 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-25T12:04:46.745+03:00  WARN 17380 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-25T12:06:33.565+03:00  INFO 17380 --- [first-stub] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T12:06:33.574+03:00  INFO 17380 --- [first-stub] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-25T12:06:33.578+03:00  INFO 17380 --- [first-stub] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-25T12:06:33.581+03:00  INFO 17380 --- [first-stub] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-25T12:08:23.204+03:00  INFO 12204 --- [first-stub] [main] c.e.FirstStub.FirstStubApplicationTests  : Starting FirstStubApplicationTests using Java 23.0.1 with PID 12204 (started by User in C:\Users\User\IdeaProjects\FirstStubPractice)
+2026-08-25T12:08:23.206+03:00 DEBUG 12204 --- [first-stub] [main] c.e.FirstStub.FirstStubApplicationTests  : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-08-25T12:08:23.207+03:00  INFO 12204 --- [first-stub] [main] c.e.FirstStub.FirstStubApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2026-08-25T12:08:26.220+03:00  INFO 12204 --- [first-stub] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-25T12:08:26.596+03:00  INFO 12204 --- [first-stub] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/stubdb user=SA
+2026-08-25T12:08:26.599+03:00  INFO 12204 --- [first-stub] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-25T12:08:26.616+03:00  INFO 12204 --- [first-stub] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/stubdb'
+2026-08-25T12:08:26.866+03:00  INFO 12204 --- [first-stub] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-25T12:08:26.992+03:00  INFO 12204 --- [first-stub] [main] c.e.FirstStub.FirstStubApplicationTests  : Started FirstStubApplicationTests in 4.287 seconds (process running for 6.013)
+2026-08-25T12:08:27.098+03:00  WARN 12204 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-25T12:08:27.098+03:00  WARN 12204 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-25T12:08:28.335+03:00  INFO 12204 --- [first-stub] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-25T12:08:28.342+03:00  INFO 12204 --- [first-stub] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

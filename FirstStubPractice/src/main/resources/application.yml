@@ -1,0 +1,37 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: first-stub
+
+  datasource:
+    url: jdbc:h2:file:./data/stubdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+logging:
+  file:
+    name: logs/first-stub.log
+  level:
+    root: INFO
+    com.example.FirstStub: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+
+  endpoint:
+    health:
+      show-details: always
+
+stub:
+  payment-delay-seconds: 1

@@ -1,0 +1,10 @@
+2026-08-25 10:42:59,099 INFO  [main] com.example.FirstStub.FirstStubApplication : Starting FirstStubApplication using Java 23.0.1 with PID 12552 (C:\Users\User\IdeaProjects\FirstStub\target\classes started by User in C:\Users\User\IdeaProjects\FirstStub)
+2026-08-25 10:42:59,115 INFO  [main] com.example.FirstStub.FirstStubApplication : The following 1 profile is active: "prod"
+2026-08-25 10:43:00,485 INFO  [main] org.springframework.boot.tomcat.TomcatWebServer : Tomcat initialized with port 9999 (http)
+2026-08-25 10:43:00,501 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2026-08-25 10:43:00,501 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-08-25 10:43:00,563 INFO  [main] org.springframework.boot.web.context.servlet.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1287 ms
+2026-08-25 10:43:01,095 INFO  [main] org.springframework.boot.tomcat.TomcatWebServer : Tomcat started on port 9999 (http) with context path '/'
+2026-08-25 10:43:01,110 INFO  [main] com.example.FirstStub.FirstStubApplication : Started FirstStubApplication in 2.851 seconds (process running for 4.136)
+2026-08-25 10:43:14,404 INFO  [SpringApplicationShutdownHook] org.springframework.boot.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25 10:43:14,419 INFO  [tomcat-shutdown] org.springframework.boot.tomcat.GracefulShutdown : Graceful shutdown complete
