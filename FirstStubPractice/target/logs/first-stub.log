@@ -1,0 +1,40 @@
+2026-08-25T12:14:49.187+03:00  INFO 4988 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Starting FirstStubApplication v0.0.1-SNAPSHOT using Java 23.0.1 with PID 4988 (C:\Users\User\IdeaProjects\FirstStubPractice\target\FirstStub-0.0.1-SNAPSHOT.jar started by User in C:\Users\User\IdeaProjects\FirstStubPractice\target)
+2026-08-25T12:14:49.191+03:00 DEBUG 4988 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-08-25T12:14:49.193+03:00  INFO 4988 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-08-25T12:14:51.582+03:00  INFO 4988 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-25T12:14:51.614+03:00  INFO 4988 --- [first-stub] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T12:14:51.615+03:00  INFO 4988 --- [first-stub] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-08-25T12:14:51.676+03:00  INFO 4988 --- [first-stub] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2330 ms
+2026-08-25T12:14:53.320+03:00  INFO 4988 --- [first-stub] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-25T12:14:53.639+03:00  INFO 4988 --- [first-stub] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/stubdb user=SA
+2026-08-25T12:14:53.641+03:00  INFO 4988 --- [first-stub] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-25T12:14:53.658+03:00  INFO 4988 --- [first-stub] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/stubdb'
+2026-08-25T12:14:53.917+03:00  INFO 4988 --- [first-stub] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-25T12:14:54.085+03:00  INFO 4988 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-25T12:14:54.105+03:00  INFO 4988 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Started FirstStubApplication in 5.729 seconds (process running for 6.53)
+2026-08-25T12:14:54.244+03:00  WARN 4988 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-25T12:14:54.245+03:00  WARN 4988 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-25T12:16:13.948+03:00  INFO 4988 --- [first-stub] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T12:16:13.973+03:00  INFO 4988 --- [first-stub] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-25T12:16:13.978+03:00  INFO 4988 --- [first-stub] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-25T12:16:13.984+03:00  INFO 4988 --- [first-stub] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-25T12:16:24.890+03:00  INFO 10456 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Starting FirstStubApplication v0.0.1-SNAPSHOT using Java 23.0.1 with PID 10456 (C:\Users\User\IdeaProjects\FirstStubPractice\target\FirstStub-0.0.1-SNAPSHOT.jar started by User in C:\Users\User\IdeaProjects\FirstStubPractice\target)
+2026-08-25T12:16:24.896+03:00 DEBUG 10456 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-08-25T12:16:24.898+03:00  INFO 10456 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : The following 1 profile is active: "test1"
+2026-08-25T12:16:27.231+03:00  INFO 10456 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 7770 (http)
+2026-08-25T12:16:27.259+03:00  INFO 10456 --- [first-stub] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T12:16:27.260+03:00  INFO 10456 --- [first-stub] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-08-25T12:16:27.321+03:00  INFO 10456 --- [first-stub] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2303 ms
+2026-08-25T12:16:28.536+03:00  INFO 10456 --- [first-stub] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-25T12:16:28.871+03:00  INFO 10456 --- [first-stub] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/stubdb user=SA
+2026-08-25T12:16:28.876+03:00  INFO 10456 --- [first-stub] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-25T12:16:28.903+03:00  INFO 10456 --- [first-stub] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/stubdb'
+2026-08-25T12:16:29.109+03:00  INFO 10456 --- [first-stub] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-08-25T12:16:29.261+03:00  INFO 10456 --- [first-stub] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 7770 (http) with context path '/'
+2026-08-25T12:16:29.279+03:00  INFO 10456 --- [first-stub] [main] c.e.FirstStub.FirstStubApplication       : Started FirstStubApplication in 5.229 seconds (process running for 6.004)
+2026-08-25T12:16:29.407+03:00  WARN 10456 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-25T12:16:29.408+03:00  WARN 10456 --- [first-stub] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-25T12:16:29.800+03:00  INFO 10456 --- [first-stub] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T12:16:29.844+03:00  INFO 10456 --- [first-stub] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-25T12:16:29.856+03:00  INFO 10456 --- [first-stub] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-25T12:16:29.865+03:00  INFO 10456 --- [first-stub] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
